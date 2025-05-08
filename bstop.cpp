@@ -86,7 +86,6 @@ int main() {
 
     cout << "Longest path from root: " << longestPathFromRoot(root) << endl;
     cout << "Minimum value in the tree: " << findMinimum(root) << endl;
-
     cout << "Inorder after mirroring: ";
     mirror(root);
     inorder(root);
